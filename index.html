@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="StyleSheet" href="style.css" type="text/css">
+    <script src="main.js"></script>
+  </head>
+  <body onkeypress="carro1.girar()">
+    <div id="fondo">
+      <img class="fondo" src="./images/fondo1.png" id="img" alt="fondo">
+      <a onclick="carro1.encender()" id='on' >ON</a>
+      <a onclick="carro1.cambiar_palanca_n()" id='neutro'>N</a>
+      <a onclick="carro1.cambiar_palanca_r()" id='reversa'>R</a>
+      <a onclick="carro1.cambiar_palanca_1()" id='primera'>1</a>
+      <a onclick="carro1.cambiar_palanca_2()" id='segunda'>2</a>
+      <a onclick="carro1.cambiar_palanca_3()" id='tercera'>3</a>
+      <a onclick="carro1.cambiar_palanca_4()" id='cuarta'>4</a>
+      <a onclick="carro1.cambiar_palanca_5()" id='quinta'>5</a>
+      <a onclick="carro1.cambiar_palanca_6()" id='sexta'>6</a>
+      <a onclick="carro1.cambiar_freno_mano()" id="freno_mano">FM</a>
+      <a onclick="carro1.modificar_freno()" id="freno">FR</a>
+      <a onclick="carro1.modificar_clutch()" id="clutch">CL</a> 
+      <a onclick="carro1.modificar_acelerador()" id="acelerador">AC</a>
+      <a onclick="carro1.poner_en_marcha()" id="arrancar">RUN</a>
+      <a onclick="carro1.cambiar_izquerda()" id="izquierda">L</a>
+      <a onclick="carro1.cambiar_derecha()" id="derecha">R</a>
+      <!--
+      <a onclick="document.getElementById('img').src='./images/fondo1.png'" >HOLA</a>
+      -->
+      <p id="txt">apagado</p>
+      <p id="palanca">--</p>
+      <p id="freno_mano_etiqueta">--</p>
+      <p id="paradas">--</p>
+      <p id="tiempo_parada">--</p>
+      <p id="distancia_total">--</p>
+      <p id="distancia_paradas">--</p>
+      <p id="clutch_etiqueta">--</p> 
+      <p id="freno_etiqueta">--</p>
+      <p id="acelerador_etiqueta">--</p>
+      <p id="tiempo"></p>
+    </div>
+  </body>
+</html>

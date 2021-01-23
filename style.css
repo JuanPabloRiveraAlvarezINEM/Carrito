@@ -1,0 +1,182 @@
+.fondo{
+  width: 1280px;
+  height: 600px;
+}
+
+#txt{
+  position: relative;
+  position: absolute;
+  left: 8%;
+  top: 2%;
+}
+#paradas{
+  position: relative;
+  position: absolute;
+  left: 8%;
+  top: 8%;
+}
+#tiempo_parada{
+  position: relative;
+  position: absolute;
+  left: 8%;
+  top: 23%;
+}
+#distancia_paradas{
+  position: relative;
+  position: absolute;
+  left: 62%;
+  top: 20%;
+}
+#distancia_total{
+  position: relative;
+  position: absolute;
+  left: 62%;
+  top: 4%;
+}
+#fondo{
+  display: inline-block;
+  position: relative;
+}
+
+#fondo #on{
+  position: absolute;
+  top:47.5%;
+  color: white;
+  left: 25.5%;
+}
+
+
+#fondo #neutro{
+  position: absolute;
+  color:white;
+  top:78.5%;
+  left:31.5%;
+}
+#fondo #reversa{
+  position: absolute;
+  color:white;
+  top:69%;
+  left:31.5%;
+}
+#fondo #primera{
+  position: absolute;
+  color:white;
+  top:69%;
+  left:37.5%;
+}
+#fondo #segunda{
+  position: absolute;
+  color:white;
+  top:78.5%;
+  left:37.5%;
+}
+#fondo #tercera{
+  position: absolute;
+  color:white;
+  top:69%;
+  left:43.5%;
+}
+#fondo #cuarta{
+  position: absolute;
+  color:white;
+  top:78.5%;
+  left:43.5%;
+}
+#fondo #quinta{
+  position: absolute;
+  color:white;
+  top:69%;
+  left:48.5%;
+}
+
+#fondo #sexta{
+  position: absolute;
+  color:white;
+  top:78.5%;
+  left:48.5%;
+}
+#fondo #freno_mano{
+  position: absolute;
+  color:white;
+  top:67%;
+  left:63.8%;
+}
+#fondo #freno{
+  position: absolute;
+  color:white;
+  top:88.5%;
+  left:10%;
+}
+#fondo #clutch{
+  position: absolute;
+  color:white;
+  top:88.5%;
+  left:3.5%;
+}
+#fondo #arrancar{
+  position: absolute;
+  color:white;
+  top:47.5%;
+  left:50.5%;
+}
+#fondo #acelerador{
+  position: absolute;
+  color:white;
+  top:88.5%;
+  left:16%;
+}
+#fondo #izquierda{
+  position: absolute;
+  color:white;
+  top:58%;
+  left:9%;
+}
+#fondo #derecha{
+  position: absolute;
+  color:white;
+  top:58%;
+  left:14.3%;
+}
+#fondo #palanca{
+  position: absolute;
+  top:5.5%;
+  left: 92%;
+}
+#fondo #tiempo{
+  position: absolute;
+  top:56%;
+  left: 40%;
+}
+#fondo #freno_mano_etiqueta{
+  position: absolute;
+  top:20%;
+  left: 92%;
+}
+#fondo #clutch_etiqueta{
+  position: absolute;
+  top:34%;
+  left: 92%;
+}
+#fondo #acelerador_etiqueta{
+  position: absolute;
+  top:58.5%;
+  left: 92%;
+}
+#fondo #freno_etiqueta{
+  position: absolute;
+  top:46%;
+  left: 92%;
+}
+#fondo #circulo1{
+     position: absolute;
+     display: inline-block;
+     margin: 0px;
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c;
+}
+
+
